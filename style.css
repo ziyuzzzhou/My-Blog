@@ -219,9 +219,9 @@ footer .container div a:hover {
     margin: 20px 0;
     line-height: 2;
   }
-  section .sec-2 p br:last-child {
+  /* section .sec-2 p br:last-child {
     display: none;
-  }
+  } */
   footer {
     width: 90%;
   }
@@ -290,6 +290,7 @@ footer .container div a:hover {
   section .sec-2 p {
     font-size: 10px;
     margin: 10px 0;
+    padding: 0 35px;
     line-height: 2;
   }
   section .sec-2 p br + br {
