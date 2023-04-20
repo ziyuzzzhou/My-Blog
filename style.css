@@ -121,17 +121,17 @@ section .sec-2 {
   justify-content: space-evenly;
 }
 
-section .sec-2 h1 {
+section .sec-2 h2 {
   margin: 15px 0;
 
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
 }
 
 section .sec-2 h3 {
   margin: 10px 0;
 
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -280,17 +280,17 @@ footer .container div a:hover {
     width: 220px;
     height: 220px;
   }
-  section .sec-2 h1 {
+  section .sec-2 h2 {
     font-size: 25px;
     margin: 20px 0 10px;
   }
   section .sec-2 h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   section .sec-2 p {
     font-size: 10px;
     margin: 10px 0;
-    line-height: 1.5;
+    line-height: 2;
   }
   section .sec-2 p br + br {
     display: none;
@@ -298,7 +298,7 @@ footer .container div a:hover {
   section .sec-2 .sec-link a {
     padding: 8px;
     margin: 3px;
-    font-size: 8px;
+    font-size: 9px;
   }
   footer {
     width: 100%;
@@ -473,11 +473,11 @@ footer .container div a:hover {
     padding-left: 0;
   }
   .div-resume .block .div-right .item .content h4 {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 8px;
   }
   .div-resume .block .div-right .item .content p {
-    font-size: 8px;
+    font-size: 9px;
     line-height: 1.7;
   }
   .div-resume .block-3 .div-left,
@@ -521,7 +521,7 @@ footer .container div a:hover {
 .wrap .timeline li:nth-child(even) {
   float: right;
   padding-left: 70px;
-  transform: translateY(50%);
+  transform: translateY(25%);
 }
 
 /* 圓圈 */
@@ -602,6 +602,14 @@ footer .container div a:hover {
   font-weight: 100;
 }
 
+.wrap .timeline li .time_item:hover p a {
+  color: #fff;
+}
+
+.wrap .timeline li .time_item p a .bi {
+  margin-top: 5px;
+}
+
 @media (max-width: 795px) {
   .wrap .timeline li:nth-child(odd) {
     padding-right: 50px;
@@ -645,6 +653,12 @@ footer .container div a:hover {
   }
   .wrap .timeline li .time_item p {
     font-size: 13px;
+  }
+  .wrap .timeline li .time_item p a .bi {
+    margin: 5px 5px 0;
+  }
+  .wrap .timeline li .time_item p a span {
+    display: none;
   }
 }
 
@@ -717,6 +731,13 @@ footer .container div a:hover {
   .wrap .timeline li .time_item p {
     font-size: 12px;
     line-height: 1.6;
+  }
+  .wrap .timeline li .time_item p a .bi {
+    margin: 5px 0 0;
+  }
+  .wrap .timeline li .time_item p a span {
+    display: inline;
+    font-size: 10px;
   }
 }
 
