@@ -139,7 +139,7 @@ section .sec-2 p {
   margin: 10px 0;
   line-height: 1.5;
 
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
 }
 
@@ -291,7 +291,6 @@ footer .container div a:hover {
     font-size: 10px;
     margin: 10px 0;
     padding: 0 35px;
-    line-height: 2;
   }
   section .sec-2 p br + br {
     display: none;
